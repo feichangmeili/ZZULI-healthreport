@@ -1,6 +1,12 @@
-> **重要通知!! 我们**~~尚未~~**已经对居家打卡进行适配 请正在使用打卡的同学在回家后手动使用i轻工大进行居家打卡至少一次（这一步非常重要）** ~~请持续关注本项目 我们会在放假3-4天之内完成适配~~**我们已经完成了打卡数据的适配，请您merge最新代码并[更新变量](#github-actions推荐)**
+> **归家后请修改home = 1 且确保地址信息填写完整，请持续关注本项目，合并最新代码以确保打卡信息正常**
+> 地址范例，请参照更改
+```
 
-<h1 align="center">🎉郑州轻工业大学nCov肺炎健康打卡脚本🎉</h1>
+[快速指引](https://xwwwb.github.io/zzulidakadocs/#/github_action?id=在校打卡)
+
+```
+
+<h1 align="center">🎉郑州轻工业大学nCov健康打卡脚本🎉</h1>
 <hr />
 <p align="center">🍺A script that can help you submit health information automatically🍺</p>
 <div align="center">
@@ -12,6 +18,17 @@
 <a target="_blank" href="https://github.com/xwwwb/ZzuliDakaWeb">自动打卡网站仓库！</a></div>
 
 有问题请提issue，能修复请发pr
+
+<h2>⚠风险提示和免责声明</h2>
+
+此项目仅供学習用，您不应该将此脚本用于健康日报，下载后请于24小时内删除源代码。
+
+请勿用于实际使用，用于实际使用的一切后果由使用者承担，本脚本开发者不负任何责任。**打卡默认为您在的状态符合学校要求和防疫规定，若您身体不适/在中高风险、风控区，请手动打卡提交即时数据并及时向属地、辅导员及学校报告！**
+
+请遵守居住地和学校所在地的法律和郑州轻工业大学校规。遵守**郑州轻工业大学违纪处分管理规定之第二章第十九条之第六条规定**
+
+此项目使用[MPL-2.0 License](https://github.com/billionray/ZZULI-healthreport/blob/main/LICENSE)，当协议与本声明和居住地法律与校规冲突时，以后者为准！
+
 
 <h2>特征</h2>
 👏
@@ -37,16 +54,6 @@
  
 特别感谢！ [skyiea314](https://github.com/skyiea314)
 
-<h2>⚠风险提示和免责声明</h2>
-
-此项目仅供学習用，下载后请于24小时内删除源代码和打卡历史记录。
-
-请勿用于实际使用，用于实际使用的一切后果由使用者承担。**打卡默认为您在的状态符合学校要求和防疫规定，若您身体不适/在中高风险、风控区，请手动打卡提交即时数据并及时向属地、辅导员及学校报告！**
-
-请遵守居住地和学校所在地的法律和郑州轻工业大学校规。遵守**郑州轻工业大学违纪处分管理规定之第二章第十九条之第六条规定**
-
-此项目使用[MPL-2.0 License](https://github.com/billionray/ZZULI-healthreport/blob/main/LICENSE)，当协议与居住地法律与校规冲突时，以后者为准
-
 <h2>更新路线：</h2>
 <ul>
 <li>-[]2022寒假 django网站/data.json生成</li>
@@ -66,6 +73,9 @@
 <li>✅2021-02-07 从学校服务器端获取部分数据以减少信息填入</li>
 <li>✅2021-02-04 初次提交代码</li>
 </ul>
+
+![Alt](https://repobeats.axiom.co/api/embed/bb22485e12ef2414bde7533a0f6eece3c48786ac.svg "Repobeats analytics image")
+
 <h2>鸣谢：</h2>
 <a href="https://www.python.org/"><img src="https://www.python.org/static/img/python-logo.png" alt="" height="50px"></a><br />
 <a href="https://visualstudio.microsoft.com/zh-hans/vs/"><img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/BrandVisualStudioWin2019-3.svg" alt="" height="50px"></a>
